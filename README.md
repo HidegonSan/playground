@@ -5,4 +5,4 @@ Currently, the following programs are available.
 
 |Name|Description|
 |:--|:--:|
-|[Test](https://example.com)|test|
+|[Invite checker](https://github.com/HidegonSan/playground/tree/main/Invite_checker)| for Discord|
