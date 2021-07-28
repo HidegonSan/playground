@@ -8,4 +8,4 @@ Currently, the following programs are available.
 |[Invite checker](https://github.com/HidegonSan/playground/tree/main/Invite_checker)| for Discord|
 |[ReplaceAll](https://github.com/HidegonSan/playground/tree/main/replaceAll)| Replace all string|
 |[Countdown to heaven](https://github.com/HidegonSan/playground/tree/main/Countdown_to_heaven/)| --- |
-|[Hiragana to Katakana](https://github.com/HidegonSan/playground/tree/main/Hiragana_to_katakana/)| --- |
+|[Hiragana to Katakana](https://github.com/HidegonSan/playground/tree/main/Hiragana_to_Katakana/)| --- |
