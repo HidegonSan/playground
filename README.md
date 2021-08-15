@@ -10,3 +10,4 @@ Currently, the following programs are available.
 |[Countdown to heaven](https://github.com/HidegonSan/playground/tree/main/Countdown_to_heaven/)| --- |
 |[Hiragana to Katakana](https://github.com/HidegonSan/playground/tree/main/Hiragana_to_Katakana/)| --- |
 |[偽50音](https://github.com/HidegonSan/playground/tree/main/fake50on)| --- |
+| [Hydration](https://github.com/HidegonSan/playground/tree/main/Hydration/hydration.sh) | --- |
