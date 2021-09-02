@@ -1,5 +1,5 @@
-__これは公式のHow-to-build-toolchain.pdfではなく、有志によって日本語へ翻訳されたものです。__  
-__This isn't the official How-to-build-toolchain.pdf, but was translated into Japanese by a volunteer.__
+__これは公式ではなく、有志によって日本語へ翻訳されたものです。__  
+__This isn't the official, but was translated into Japanese by a volunteer.__
 
 
 ---
@@ -20,7 +20,7 @@ __Copyright (C) 2012-2021 ARM Ltd.__
     1.1: Ubuntuのインストール
     1.2: インストールの依存関係
         1.2.1: Ubuntuのリポジトリで利用可能な依存関係をインストールする
-    1.3: GNU Arm Embedded Toolchainをビルドする
+    1.3: GNU Arm Embedded Toolchain をビルドする
 
 第2章: Mac OS XでGNUツールをビルドする
     2.1: Mac OS X環境を準備する
@@ -36,11 +36,11 @@ __Copyright (C) 2012-2021 ARM Ltd.__
 
 ## はじめに
 
-このマニュアルは、Ubuntu 14.04 LTS 64bit op-up上で "‘GNU Arm
+このマニュアルは、Ubuntu 14.04 LTS 64bit op-up 上で "GNU Arm
 Embedded Toolchain" のビルドに役立つ着実なガイドを提供します。  
-以下の手順は、最新でないUbuntuや、14.04 LTS以外のバージョンでも動作する可能性があります。  
+以下の手順は、最新でない Ubuntu や、14.04 LTS 以外のバージョンでも動作する可能性があります。  
 ですが、保証するものではありません。  
-その場合は、付録A "既知の問題" を参照してください。  
+その場合は、"追加 A: 既知の問題" を参照してください。  
 また、その他の問題が発生した場合は、ご自身で解決していただく必要があります。  
 問題点や解決方法を共有していただけると幸いです。  
 
@@ -49,7 +49,7 @@ Embedded Toolchain" のビルドに役立つ着実なガイドを提供します
 
 ### 1.1: Ubuntuのインストール
 
-Ubuntu 14.04.5のISOイメージは、http://releases.ubuntu.com/14.04/ubuntu-14.04.5-desktop-amd64.iso です。  
+Ubuntu 14.04.5 の ISOイメージは、http://releases.ubuntu.com/14.04/ubuntu-14.04.5-desktop-amd64.iso です。  
 ネイティブシステムまたは仮想マシンとしてインストールすることができます。  
 
 ### 1.2: インストールの依存関係
@@ -89,7 +89,7 @@ deb http://security.ubuntu.com/ubuntu xenial-security main
 EOF
 ```
 
-UbuntuTrustyのパッケージがデフォルトで選択されていることを確認します:  
+UbuntuTrusty のパッケージがデフォルトで選択されていることを確認します:  
 
 ```
 $ echo ’APT::Default-Release "trusty";’ > /etc/apt/apt.conf.d/00default
@@ -114,10 +114,10 @@ texlive texlive-extra-utils libncurses5-dev
 $ exit
 ```
 
-### 1.3: GNU Arm Embedded Toolchainをビルドする
+### 1.3: GNU Arm Embedded Toolchain をビルドする
 
 これで、ツールチェーンをビルドする準備が整いました。以下の指示に従ってください。  
-`~/toolchain`を、ツールチェーンをビルドしたいディレクトリに置き換えてください。  
+`~/toolchain` を、ツールチェーンをビルドしたいディレクトリに置き換えてください。  
 尚、Windowsのツールチェーンに興味がない場合は、  
 `install-sources.sh, build-prerequisites.sh、build-toolchain.sh` のすべてに `"--skip_steps=mingw32"` というオプションを渡すことで、ビルドを高速化できます。
 
@@ -145,8 +145,8 @@ $ ./build-toolchain.sh
 
 ## 第2章: Mac OS XでGNUツールをビルドする
 
-Ubuntuでのビルドに加えて、同じソースパッケージに含まれるビルドスクリプトはMac OS Xでも使用することができます。  
-ホストがMac OS X、ターゲットがarm-non-eabiのネイティブツールチェーンをビルドできます。  
+Ubuntu でのビルドに加えて、同じソースパッケージに含まれるビルドスクリプトは Mac OS X でも使用することができます。  
+ホストが Mac OS X、ターゲットが arm-non-eabi のネイティブツールチェーンをビルドできます。  
 この手順では、必要なソフトウェアコンポーネントのインストール方法と、ビルドスクリプトの実行方法を説明します。  
 リリースされているものと同じツールチェーンを生成することができます。  
 尚、リソースの関係上、このビルドは以下の環境でのみテストされています。  
@@ -161,7 +161,7 @@ Ubuntuでのビルドに加えて、同じソースパッケージに含まれ�
 
 ハードウェアは `"x86-based Apple Mac family"` でなければなりません。  
 また、OSは `"OSMac OS X 10.14.6"` 以降のバージョンを使用しなければなりません。  
-Mac OS Xのバージョンを確認するには、Appleメニューから "このMacについて" を選択するか、コマンドラインで次のように入力します:  
+Mac OS X のバージョンを確認するには、Appleメニューから "このMacについて" を選択するか、コマンドラインで次のように入力します:  
 
 ```bash
 $ sw_vers -productVersion
@@ -178,7 +178,7 @@ $ xcode-select --install
 
 上記でエラーが発生した場合は次のサイトにアクセスしてください。  
 https://developer.apple.com/download/more/  
-例えば、Xcode 11.5用のCommand Line Toolsなどは、Appleのウェブページから直接ダウンロードできます。  
+例えば、Xcode 11.5 用の Command Line Tools などは、Appleのウェブページから直接ダウンロードできます。  
 その際、Apple IDでのログインが必要となります。  
 
 
@@ -234,7 +234,7 @@ $ export PATH=/tmp/texinfo/bin:$PATH
 ### 2.5: PDF形式のドキュメントを作成するために、MacTeXをインストールする
 
 これはオプションの手順で、PDF形式のドキュメントが必要ない場合はスキップすることができます。  
-ビルドプロセスでは、MacTeX-2012で提供されているTeXエンジニアを使用して、PDF形式のドキュメントを生成します。  
+ビルドプロセスでは、MacTeX-2012 で提供されている TeXエンジニア を使用して、PDF形式のドキュメントを生成します。  
 このコンポーネントは以下の公式FTPサーバーから自由に入手できます。  
 ftp://ftp.tug.org/historic/systems/mactex/2012/MacTeX.pkg  
 オリジナルのファイルサイズは約2.1GBです。  
@@ -242,7 +242,7 @@ ftp://ftp.tug.org/historic/systems/mactex/2012/MacTeX.pkg
 デフォルトでは、関連するTeXの実行ファイルは `"/usr/bin"` のようなデフォルトのパスにはインストールされません。  
 だから、ビルドスクリプトを実行する前に端末を再起動する必要があります。  
 
-尚、Homebrewを使ってMacTeXをインストールすることも可能です。  
+尚、Homebrewを使って MacTeX をインストールすることも可能です。  
 
 Caskを経由します:  
 
@@ -250,7 +250,7 @@ Caskを経由します:
 $ brew install Caskroom/cask/mactex
 ```
 
-GUI無しのMacTexをインストールしたい場合は、次のコマンドが利用できます:  
+GUI無しの MacTex をインストールしたい場合は、次のコマンドが利用できます:  
 
 ```bash
 $ brew install Caskroom/cask/mactex-no-gui
@@ -288,12 +288,12 @@ md5-x86_64-darwin.txt
 
 ## 追加 A: 既知の問題
 
-異なるビルド環境やツールを使用している場合、binutilsが正常にビルドできないという問題に遭遇するかもしれません。  
+異なるビルド環境やツールを使用している場合、binutils が正常にビルドできないという問題に遭遇するかもしれません。  
 これの原因はおそらく binutils のバグ13036です。  
 詳細については http://sourceware.org/bugzilla/show_bug.cgi?id=13036 を参照してください。  
 
-gccやその他のパッケージに含まれる一部のシェルスクリプトは、Ubuntu 14.04 LTSのデフォルトの `/bin/sh` である
-ダッシュシェル (Ubuntu 14.04 LTS のデフォルトは/bin/sh) との互換性がありません。  
+gccやその他のパッケージに含まれる一部のシェルスクリプトは、Ubuntu 14.04 LTS のデフォルトの `/bin/sh` である
+ダッシュシェル (Ubuntu 14.04 LTS のデフォルトは `/bin/sh`) との互換性がありません。  
 この場合は `/bin/sh` を、サポートされているシェルのいずれかへのシンボリックリンクにする必要があります。  
 Bashを使用してください。  
 Ubuntu 14.04 LTS システムでは、次のコマンドを実行することで実現できます。  
