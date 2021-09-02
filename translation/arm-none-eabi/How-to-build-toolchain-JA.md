@@ -8,7 +8,7 @@ __This isn't the official How-to-build-toolchain.pdf, but was translated into Ja
 # ビルドの工程 (GNU Arm Embedded Toolchain 10.3-2021.07)
 
 __2021-07__  
-__Copyright (C) 2012-2021 ARM Ltd.__
+__Copyright (C) 2012-2021 ARM Ltd.__  
 
 
 ## 目次
@@ -61,22 +61,22 @@ Ubuntu 14.04.5のISOイメージは、http://releases.ubuntu.com/14.04/ubuntu-14
 `"#"` で始まる行はコメントであり、入力する必要はありません。  
 `apt-get update`実行時に `"Ignoring Provides line"` と `"unknown Multi-Arch type"` という警告が表示されますが無害です。  
 同様に、`update-alternatives`がシンボリックリンクの作成をスキップするという警告も無害です。  
-だから、__これらの警告を無視してもらって構いません。__  
+だから、これらの警告を無視してもらって構いません。  
 
 
-スーパーユーザへなります:
+スーパーユーザへなります:  
 
 ```
 $ sudo su
 ```
 
-32bit用パッケージを有効化します:
+32bit用パッケージを有効化します:  
 
 ```
 $ dpkg --add-architecture i386
 ```
 
-aptで使用するリポジトリを追加します:
+aptで使用するリポジトリを追加します:  
 
 ```
 $ apt-get update
@@ -89,13 +89,13 @@ deb http://security.ubuntu.com/ubuntu xenial-security main
 EOF
 ```
 
-UbuntuTrustyのパッケージがデフォルトで選択されていることを確認します:
+UbuntuTrustyのパッケージがデフォルトで選択されていることを確認します:  
 
 ```
 $ echo ’APT::Default-Release "trusty";’ > /etc/apt/apt.conf.d/00default
 ```
 
-パッケージをインストールします:
+パッケージをインストールします:  
 
 ```
 $ apt-get install -y -t xenial \
@@ -108,7 +108,7 @@ python-dev libisl-dev scons tcl texinfo tofrodos wget zip \
 texlive texlive-extra-utils libncurses5-dev
 ```
 
-スーパーユーザでの作業は以上です:
+スーパーユーザでの作業は以上です:  
 
 ```
 $ exit
@@ -119,7 +119,7 @@ $ exit
 これで、ツールチェーンをビルドする準備が整いました。以下の指示に従ってください。  
 `~/toolchain`を、ツールチェーンをビルドしたいディレクトリに置き換えてください。  
 尚、Windowsのツールチェーンに興味がない場合は、  
-`install-sources.sh, build-prerequisites.sh、build-toolchain.sh` のすべてに `"--skip_steps=mingw32"` というオプションを渡すことで、__ビルドを高速化できます。__
+`install-sources.sh, build-prerequisites.sh、build-toolchain.sh` のすべてに `"--skip_steps=mingw32"` というオプションを渡すことで、ビルドを高速化できます。
 
 ```bash
 # ツールチェーンをビルドするディレクトリを作成し、ソースコードをコピーします
@@ -159,8 +159,8 @@ Ubuntuでのビルドに加えて、同じソースパッケージに含まれ�
 
 ### 2.1: Mac OS X環境を準備する
 
-ハードウェアはx86-based Apple Mac family でなければなりません。  
-また、OSはOSMac OS X 10.14.6以降のバージョンを使用しなければなりません。  
+ハードウェアは `"x86-based Apple Mac family"` でなければなりません。  
+また、OSは `"OSMac OS X 10.14.6"` 以降のバージョンを使用しなければなりません。  
 Mac OS Xのバージョンを確認するには、Appleメニューから "このMacについて" を選択するか、コマンドラインで次のように入力します:  
 
 ```bash
@@ -186,14 +186,14 @@ https://developer.apple.com/download/more/
 ### 2.3: Mac OS X で最新のBashを使用する
 この手順はオプションです。  
 ツールチェーンのBashビルドスクリプトを実行する際には、Bash 5を使用することをお勧めします。  
-私たちは現在、Bashを使用しています:
+私たちは現在、Bashを使用しています:  
 
 ```bash
 $ bash --version
 GNU bash, version 5.0.16(1)-release (x86_64-apple-darwin18.7.0)
 ```
 
-最新バージョンのBashをインストールするには、homebrewを使用することをお勧めします:
+最新バージョンのBashをインストールするには、homebrewを使用することをお勧めします:  
 
 ```bash
 $ brew install bash
@@ -208,7 +208,7 @@ Texinfoは、オンラインや印刷の両方で、さまざまな形式の出�
 このパッケージは、マニュアルと方法を示したPDFドキュメントの作成に必要です。  
 この工程は `"build-toolchain.sh"` に `"--skip_steps=howto,manual"` というオプションを渡すことで、スキップすることもできます。  
 
-Texinfo 6.5 のソースを取得します:
+Texinfo 6.5 のソースを取得します:  
 
 ```bash
 $ cd /tmp
@@ -222,8 +222,9 @@ $ mkdir /tmp/texinfo
 $ ./configure --prefix=/tmp/texinfo
 $ make
 $ make install
+```
 
-Texinfo6.5をインストールしたディレクトリを環境変数PATHに追加します:
+Texinfo6.5をインストールしたディレクトリを環境変数PATHに追加します:  
 
 ```bash
 $ export PATH=/tmp/texinfo/bin:$PATH
@@ -241,15 +242,15 @@ ftp://ftp.tug.org/historic/systems/mactex/2012/MacTeX.pkg
 デフォルトでは、関連するTeXの実行ファイルは `"/usr/bin"` のようなデフォルトのパスにはインストールされません。  
 だから、ビルドスクリプトを実行する前に端末を再起動する必要があります。  
 
-尚、Homebrewを使ってMacTeXをインストールすることも可能です。
+尚、Homebrewを使ってMacTeXをインストールすることも可能です。  
 
-Caskを経由します:
+Caskを経由します:  
 
 ```bash
 $ brew install Caskroom/cask/mactex
 ```
 
-GUI無しのMacTexをインストールしたい場合は、次のコマンドが利用できます:
+GUI無しのMacTexをインストールしたい場合は、次のコマンドが利用できます:  
 
 ```bash
 $ brew install Caskroom/cask/mactex-no-gui
@@ -276,7 +277,7 @@ $ ./build-prerequisites.sh
 $ ./build-toolchain.sh
 ```
 
-ツールチェーンのビルドが完了したら、pkg/ 以下のバイナリとソースのMD5チェックサムを確認してください:
+ツールチェーンのビルドが完了したら、pkg/ 以下のバイナリとソースのMD5チェックサムを確認してください:  
 
 ```
 ~/mac-build/gcc-arm-none-eabi-10.3-2021.07/pkg $ ls -l
