@@ -45,7 +45,7 @@ Embedded Toolchain" のビルドに役立つ着実なガイドを提供します
 問題点や解決方法を共有していただけると幸いです。  
 
 
-## 第1章: LinuxとWindows用のGNUツールのビルド
+## 第1章: LinuxとWindows用のGNUツールをビルドする
 
 ### 1.1: Ubuntuのインストール
 
@@ -122,7 +122,7 @@ $ exit
 `install-sources.sh, build-prerequisites.sh、build-toolchain.sh` のすべてに `"--skip_steps=mingw32"` というオプションを渡すことで、ビルドを高速化できます。
 
 ```bash
-# ツールチェーンをビルドするディレクトリを作成し、ソースコードをコピーします
+# ツールチェーンをビルドするディレクトリを作成し、ソースコードをコピーします。
 # そして、その中にパッケージを入れます。
 $ mkdir ~/toolchain
 $ cp gcc-arm-none-eabi-10.3-2021.07-src.tar.bz2 ~/toolchain
@@ -217,7 +217,7 @@ $ tar -Jxvf texinfo-6.5.tar.xz
 $ cd texinfo-6.5/
 
 # この例では、Texinfoを任意のディレクトリ (今回は /tmp/texinfo) にインストールします。
-# ディレクトリの作成
+# ディレクトリを作成します。
 $ mkdir /tmp/texinfo
 $ ./configure --prefix=/tmp/texinfo
 $ make
