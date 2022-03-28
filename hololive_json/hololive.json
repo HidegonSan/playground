@@ -1,0 +1,581 @@
+{
+	"japan": {
+		"gen0": {
+			"name": "",
+			"talents": [
+				{
+					"active": true,
+					"name": "ときのそら",
+					"name_jp": "ときのそら",
+					"name_kana": "ときのそら",
+					"youtube": "https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg",
+					"twitter": "https://twitter.com/tokino_sora"
+				},
+				{
+					"active": true,
+					"name": "ロボ子さん",
+					"name_jp": "ろぼこさん",
+					"name_kana": "ろぼこさん",
+					"youtube": "https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g",
+					"twitter": "https://twitter.com/robocosan"
+				},
+				{
+					"active": true,
+					"name": "さくらみこ",
+					"name_jp": "さくらみこ",
+					"name_kana": "さくらみこ",
+					"youtube": "https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA",
+					"twitter": "https://twitter.com/sakuramiko35"
+				},
+				{
+					"active": true,
+					"name": "星街すいせい",
+					"name_jp": "ほしまち すいせい",
+					"name_kana": "ほしまち すいせい",
+					"youtube": "https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A",
+					"twitter": "https://twitter.com/suisei_hosimati"
+				}
+			]
+		},
+		"gen1": {
+			"name": "",
+			"talents": [
+				{
+					"active": true,
+					"name": "夜空メル",
+					"name_jp": "よぞら める",
+					"name_kana": "よぞら める",
+					"youtube": "https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw",
+					"twitter": "https://twitter.com/yozoramel"
+				},
+				{
+					"active": true,
+					"name": "白上フブキ",
+					"name_jp": "しらかみ ふぶき",
+					"name_kana": "しらかみ ふぶき",
+					"youtube": "https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg",
+					"twitter": "https://twitter.com/shirakamifubuki"
+				},
+				{
+					"active": true,
+					"name": "夏色まつり",
+					"name_jp": "なついろ まつり",
+					"name_kana": "なついろ まつり",
+					"youtube": "https://www.youtube.com/channel/UCQ0UDLQCjY0rmuxCDE38FGg",
+					"twitter": "https://twitter.com/natsuiromatsuri"
+				},
+				{
+					"active": true,
+					"name": "アキ・ローゼンタール",
+					"name_jp": "あき・ろーぜんたーる",
+					"name_kana": "あき・ろーぜんたーる",
+					"youtube": "https://www.youtube.com/channel/UCFTLzh12_nrtzqBPsTCqenA",
+					"twitter": "https://twitter.com/akirosenthal"
+				},
+				{
+					"active": true,
+					"name": "赤井はあと",
+					"name_jp": "あかい はあと",
+					"name_kana": "あかい はあと",
+					"youtube": "https://www.youtube.com/channel/UC1CfXB_kRs3C-zaeTG3oGyg",
+					"twitter": "https://twitter.com/akaihaato"
+				},
+				{
+					"active": false,
+					"name": "人見 クリス",
+					"name_jp": "ひとみ くりす",
+					"name_kana": "ひとみ くりす",
+					"youtube": "https://www.youtube.com/channel/UCbfQf5D9v8XBp7_sQsh5rfQ",
+					"twitter": "https://twitter.com/hitomikurisu"
+				}
+			]
+		},
+		"gen2": {
+			"name": "",
+			"talents": [
+				{
+					"active": true,
+					"name": "湊あくあ",
+					"name_jp": "みなと あくあ",
+					"name_kana": "みなと あくあ",
+					"youtube": "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg",
+					"twitter": "https://twitter.com/minatoaqua"
+				},
+				{
+					"active": true,
+					"name": "紫咲シオン",
+					"name_jp": "むらさき しおん",
+					"name_kana": "むらさき しおん",
+					"youtube": "https://www.youtube.com/channel/UCXTpFs_3PqI41qX2d9tL2Rw",
+					"twitter": "https://twitter.com/murasakishionch"
+				},
+				{
+					"active": true,
+					"name": "百鬼あやめ",
+					"name_jp": "なりき あやめ",
+					"name_kana": "なりき あやめ",
+					"youtube": "https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg",
+					"twitter": "https://twitter.com/nakiriayame"
+				},
+				{
+					"active": true,
+					"name": "癒月ちょこ",
+					"name_jp": "ゆづき ちょこ",
+					"name_kana": "ゆづき ちょこ",
+					"youtube": "https://www.youtube.com/channel/UC1suqwovbL1kzsoaZgFZLKg",
+					"twitter": "https://twitter.com/yuzukichococh"
+				},
+				{
+					"active": true,
+					"name": "大空スバル",
+					"name_jp": "おおぞら すばる",
+					"name_kana": "おおぞら すばる",
+					"youtube": "https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA",
+					"twitter": "https://twitter.com/oozorasubaru"
+				}
+			]
+		},
+		"gen3": {
+			"name": "ホロライブ ファンタジー",
+			"talents": [
+				{
+					"active": true,
+					"name": "兎田ぺこら",
+					"name_jp": "うさだ ぺこら",
+					"name_kana": "うさだ ぺこら",
+					"youtube": "https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ",
+					"twitter": "https://twitter.com/usadapekora"
+				},
+				{
+					"active": false,
+					"name": "潤羽るしあ",
+					"name_jp": "うるは るしあ",
+					"name_kana": "うるは るしあ",
+					"youtube": "https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ",
+					"twitter": "https://twitter.com/uruharushia"
+				},
+				{
+					"active": true,
+					"name": "不知火フレア",
+					"name_jp": "しらぬい ふれあ",
+					"name_kana": "しらぬい ふれあ",
+					"youtube": "https://www.youtube.com/channel/UCvInZx9h3jC2JzsIzoOebWg",
+					"twitter": "https://twitter.com/shiranuiflare"
+				},
+				{
+					"active": true,
+					"name": "白銀ノエル",
+					"name_jp": "しろがね のえる",
+					"name_kana": "しろがね のえる",
+					"youtube": "https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ",
+					"twitter": "https://twitter.com/shiroganenoel"
+				},
+				{
+					"active": true,
+					"name": "宝鐘マリン",
+					"name_jp": "ほうしょう まりん",
+					"name_kana": "ほうしょう まりん",
+					"youtube": "https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg",
+					"twitter": "https://twitter.com/houshoumarine"
+				}
+			]
+		},
+		"gen4": {
+			"name": "ホロふぉーす",
+			"talents": [
+				{
+					"active": true,
+					"name": "天音かなた",
+					"name_jp": "あまね かなた",
+					"name_kana": "あまね かなた",
+					"youtube": "https://www.youtube.com/channel/UCZlDXzGoo7d44bwdNObFacg",
+					"twitter": "https://twitter.com/amanekanatach"
+				},
+				{
+					"active": false,
+					"name": "桐生ココ",
+					"name_jp": "きりゅう ここ",
+					"name_kana": "きりゅう ここ",
+					"youtube": "https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w",
+					"twitter": "https://twitter.com/kiryucoco"
+				},
+				{
+					"active": true,
+					"name": "角巻わため",
+					"name_jp": "つのまき わため",
+					"name_kana": "つのまき わため",
+					"youtube": "https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA",
+					"twitter": "https://twitter.com/tsunomakiwatame"
+				},
+				{
+					"active": true,
+					"name": "常闇トワ",
+					"name_jp": "とこやみ とわ",
+					"name_kana": "とこやみ とわ",
+					"youtube": "https://www.youtube.com/channel/UC1uv2Oq6kNxgATlCiez59hw",
+					"twitter": "https://twitter.com/tokoyamitowa"
+				},
+				{
+					"active": true,
+					"name": "姫森ルーナ",
+					"name_jp": "ひめもり るーな",
+					"name_kana": "ひめもり るーな",
+					"youtube": "https://www.youtube.com/channel/UCa9Y57gfeY0Zro_noHRVrnw",
+					"twitter": "https://twitter.com/himemoriluna"
+				}
+			]
+		},
+		"gen5": {
+			"name": "ねぽらぼ",
+			"talents": [
+				{
+					"active": true,
+					"name": "雪花ラミィ",
+					"name_jp": "ゆきはな らみぃ",
+					"name_kana": "ゆきはな らみぃ",
+					"youtube": "https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw",
+					"twitter": "https://twitter.com/yukihanalamy"
+				},
+				{
+					"active": true,
+					"name": "桃鈴ねね",
+					"name_jp": "ももすず ねね",
+					"name_kana": "ももすず ねね",
+					"youtube": "https://www.youtube.com/channel/UCAWSyEs_Io8MtpY3m-zqILA",
+					"twitter": "https://twitter.com/momosuzunene"
+				},
+				{
+					"active": true,
+					"name": "獅白ぼたん",
+					"name_jp": "ししろ ぼたん",
+					"name_kana": "ししろ ぼたん",
+					"youtube": "https://www.youtube.com/channel/UCUKD-uaobj9jiqB-VXt71mA",
+					"twitter": "https://twitter.com/shishirobotan"
+				},
+				{
+					"active": true,
+					"name": "尾丸ポルカ",
+					"name_jp": "おまる ぽるか",
+					"name_kana": "おまる ぽるか",
+					"youtube": "https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA",
+					"twitter": "https://twitter.com/omarupolka"
+				},
+				{
+					"active": false,
+					"name": "魔乃アロエ",
+					"name_jp": "まの あろえ",
+					"name_kana": "まの あろえ",
+					"youtube": "https://www.youtube.com/channel/UCgZuwn-O7Szh9cAgHqJ6vjw",
+					"twitter": "https://twitter.com/manoaloe"
+				}
+			]
+		},
+		"gen6": {
+			"name": "秘密結社holoX",
+			"talents": [
+				{
+					"active": true,
+					"name": "ラプラス・ダークネス",
+					"name_jp": "らぷらす・だーくねす",
+					"name_kana": "らぷらす・だーくねす",
+					"youtube": "https://www.youtube.com/channel/UCENwRMx5Yh42zWpzURebzTw",
+					"twitter": "https://twitter.com/LaplusDarknesss"
+				},
+				{
+					"active": true,
+					"name": "鷹嶺ルイ",
+					"name_jp": "たかね るい",
+					"name_kana": "たかね るい",
+					"youtube": "https://www.youtube.com/channel/UCs9_O1tRPMQTHQ-N_L6FU2g",
+					"twitter": "https://twitter.com/takanelui"
+				},
+				{
+					"active": true,
+					"name": "博衣こより",
+					"name_jp": "はくい こより",
+					"name_kana": "はくい こより",
+					"youtube": "https://www.youtube.com/channel/UC6eWCld0KwmyHFbAqK3V-Rw",
+					"twitter": "https://twitter.com/hakuikoyori"
+				},
+				{
+					"active": true,
+					"name": "沙花叉クロヱ",
+					"name_jp": "さかまた くろえ",
+					"name_kana": "さかまた くろえ",
+					"youtube": "https://www.youtube.com/channel/UCIBY1ollUsauvVi4hW4cumw",
+					"twitter": "https://twitter.com/sakamatachloe"
+				},
+				{
+					"active": true,
+					"name": "風真いろは",
+					"name_jp": "かざま いろは",
+					"name_kana": "かざま いろは",
+					"youtube": "https://www.youtube.com/channel/UC_vMYWcDjmfdpH6r4TTn1MQ",
+					"twitter": "https://twitter.com/kazamairohach"
+				}
+			]
+		},
+		"gamers": {
+			"name": "ホロライブゲーマーズ",
+			"talents": [
+				{
+					"active": true,
+					"name": "大神ミオ",
+					"name_jp": "おおかみ みお",
+					"name_kana": "おおかみ みお",
+					"youtube": "https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg",
+					"twitter": "https://twitter.com/ookamimio"
+				},
+				{
+					"active": true,
+					"name": "猫又おかゆ",
+					"name_jp": "ねこまた おかゆ",
+					"name_kana": "ねこまた おかゆ",
+					"youtube": "https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw",
+					"twitter": "https://twitter.com/nekomataokayu"
+				},
+				{
+					"active": true,
+					"name": "戌神ころね",
+					"name_jp": "いぬがみ ころね",
+					"name_kana": "いぬがみ ころね",
+					"youtube": "https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q",
+					"twitter": "https://twitter.com/inugamikorone"
+				}
+			]
+		},
+		"music": {
+			"name": "イノナカミュージック",
+			"talents": [
+				{
+					"active": true,
+					"name": "AZKi",
+					"name_jp": "あずき",
+					"name_kana": "あずき",
+					"youtube": "https://www.youtube.com/channel/UC0TXe_LYZ4scaW2XMyi5_kw",
+					"twitter": "https://twitter.com/AZKi_VDiVA"
+				}
+			]
+		}
+	},
+	"english": {
+		"gen1": {
+			"name": "Myth",
+			"talents": [
+				{
+					"active": true,
+					"name": "Mori Calliope",
+					"name_jp": "森美声",
+					"name_kana": "もり かりおぺ",
+					"youtube": "https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg",
+					"twitter": "https://twitter.com/moricalliope"
+				},
+				{
+					"active": true,
+					"name": "Takanashi Kiara",
+					"name_jp": "小鳥遊キアラ",
+					"name_kana": "たかなし きあら",
+					"youtube": "https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww",
+					"twitter": "https://twitter.com/takanashikiara"
+				},
+				{
+					"active": true,
+					"name": "Ninomae Ina'nis",
+					"name_jp": "一伊那尓栖",
+					"name_kana": "にのまえ いなにす",
+					"youtube": "https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg",
+					"twitter": "https://twitter.com/ninomaeinanis"
+				},
+				{
+					"active": true,
+					"name": "Gawr Gura",
+					"name_jp": "がうる・ぐら",
+					"name_kana": "がうる・ぐら",
+					"youtube": "https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g",
+					"twitter": "https://twitter.com/gawrgura"
+				},
+				{
+					"active": true,
+					"name": "Watson Amelia",
+					"name_jp": "ワトソン アメリア",
+					"name_kana": "わとそん あめりあ",
+					"youtube": "https://www.youtube.com/channel/UCyl1z3jo3XHR1riLFKG5UAg",
+					"twitter": "https://twitter.com/watsonameliaEN"
+				}
+			]
+		},
+		"gen2": {
+			"name": "Project HOPE",
+			"talents": [
+				{
+					"active": true,
+					"name": "IRyS",
+					"name_jp": "アイリス",
+					"name_kana": "あいりす",
+					"youtube": "https://www.youtube.com/channel/UC8rcEBzJSleTkf_-agPM20g",
+					"twitter": "https://twitter.com/irys_en"
+				}
+			]
+		},
+		"gen3": {
+			"name": "Council",
+			"talents": [
+				{
+					"active": true,
+					"name": "Tsukumo Sana",
+					"name_jp": "九十九佐命",
+					"name_kana": "つくも さな",
+					"youtube": "https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ",
+					"twitter": "https://twitter.com/tsukumosana"
+				},
+				{
+					"active": true,
+					"name": "Ceres Fauna",
+					"name_jp": "セレス・ファウナ",
+					"name_kana": "せれす・ふぁうな",
+					"youtube": "https://www.youtube.com/channel/UCO_aKKYxn4tvrqPjcTzZ6EQ",
+					"twitter": "https://twitter.com/ceresfauna"
+				},
+				{
+					"active": true,
+					"name": "Ouro Kronii",
+					"name_jp": "オーロ・クロニー",
+					"name_kana": "おーろ・くろにー",
+					"youtube": "https://www.youtube.com/channel/UCmbs8T6MWqUHP1tIQvSgKrg",
+					"twitter": "https://twitter.com/ourokronii"
+				},
+				{
+					"active": true,
+					"name": "Nanashi Mumei",
+					"name_jp": "七詩ムメイ",
+					"name_kana": "ななし むめい",
+					"youtube": "https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA",
+					"twitter": "https://twitter.com/nanashimumei_en"
+				},
+				{
+					"active": true,
+					"name": "Hakos Baelz",
+					"name_jp": "ハコス・ベールズ",
+					"name_kana": "はこす・べーるず",
+					"youtube": "https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ",
+					"twitter": "https://twitter.com/hakosbaelz"
+				}
+			]
+		}
+	},
+	"indonesia": {
+		"gen1": {
+			"name": "",
+			"talents": [
+				{
+					"active": true,
+					"name": "Ayunda Risu",
+					"name_jp": "アユンダ・リス",
+					"name_kana": "あゆんだ・りす",
+					"youtube": "https://www.youtube.com/channel/UCOyYb1c43VlX9rc_lT6NKQw",
+					"twitter": "https://twitter.com/ayunda_risu"
+				},
+				{
+					"active": true,
+					"name": "Moona Hoshinova",
+					"name_jp": "ムーナ・ホシノヴァ",
+					"name_kana": "むーな・ほしのう゛ぁ",
+					"youtube": "https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg",
+					"twitter": "https://twitter.com/moonahoshinova"
+				},
+				{
+					"active": true,
+					"name": "Airani Iofifteen",
+					"name_jp": "アイラニ・イオフィフティーン",
+					"name_kana": "あいらに・いおふぃふてぃーん",
+					"youtube": "https://www.youtube.com/channel/UCAoy6rzhSf4ydcYjJw3WoVg",
+					"twitter": "https://twitter.com/airaniiofifteen"
+				}
+			]
+		},
+		"gen2": {
+			"name": "",
+			"talents": [
+				{
+					"active": true,
+					"name": "Kureiji Ollie",
+					"name_jp": "クレイジー・オリー",
+					"name_kana": "くれいじー・おりー",
+					"youtube": "https://www.youtube.com/channel/UCYz_5n-uDuChHtLo7My1HnQ",
+					"twitter": "https://twitter.com/kureijiollie"
+				},
+				{
+					"active": true,
+					"name": "Anya Melfissa",
+					"name_jp": "アーニャ・メルフィッサ",
+					"name_kana": "あーにゃ・めるふぇっさ",
+					"youtube": "https://www.youtube.com/channel/UC727SQYUvx5pDDGQpTICNWg",
+					"twitter": "https://twitter.com/anyamelfissa"
+				},
+				{
+					"active": true,
+					"name": "Pavolia Reine",
+					"name_jp": "パヴォリア・レイネ",
+					"name_kana": "ぱう゛ぉりあ・れいね",
+					"youtube": "https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q",
+					"twitter": "https://twitter.com/pavoliareine"
+				}
+			]
+		},
+		"gen3": {
+			"name": "",
+			"talents": [
+				{
+					"active": true,
+					"name": "Vestia Zeta",
+					"name_jp": "ベスティア・ゼータ",
+					"name_kana": "べすてぃあ・ぜーた",
+					"youtube": "https://www.youtube.com/channel/UCTvHWSfBZgtxE4sILOaurIQ",
+					"twitter": "https://twitter.com/vestiazeta"
+				},
+				{
+					"active": true,
+					"name": "Kaela Kovalskia",
+					"name_jp": "カエラ・コヴァルスキア",
+					"name_kana": "かえら・ごう゛ぁるすきあ",
+					"youtube": "https://www.youtube.com/channel/UCZLZ8Jjx_RN2CXloOmgTHVg",
+					"twitter": "https://twitter.com/kaelakovalskia"
+				},
+				{
+					"active": true,
+					"name": "Kobo Kanaeru",
+					"name_jp": "こぼ・かなえる",
+					"name_kana": "こぼ・かなえる",
+					"youtube": "https://www.youtube.com/channel/UCjLEmnpCNeisMxy134KPwWw",
+					"twitter": "https://twitter.com/kobokanaeru"
+				}
+			]
+		}
+	},
+	"official": [
+		{
+			"active": true,
+			"name": "Hololive Official",
+			"name_jp": "ホロライブ公式",
+			"name_kana": "ほろらいぶ こうしき",
+			"youtube": "https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg",
+			"twitter": "https://twitter.com/hololivetv"
+		},
+		{
+			"active": true,
+			"name": "Hololive EN Official",
+			"name_jp": "ホロライブ イングリッシュ 公式",
+			"name_kana": "ほろらいぶ いんぐりっしゅ こうしき",
+			"youtube": "https://www.youtube.com/channel/UCotXwY6s8pWmuWd_snKYjhg",
+			"twitter": "https://twitter.com/hololive_En"
+		},
+		{
+			"active": true,
+			"name": "Hololive ID Official",
+			"name_jp": "ホロライブ インドネシア 公式",
+			"name_kana": "ほろらいぶ いんどねしあ こうしき",
+			"youtube": "https://www.youtube.com/channel/UCfrWoRGlawPQDQxxeIDRP0Q",
+			"twitter": "https://twitter.com/hololive_Id"
+		}
+	]
+}
