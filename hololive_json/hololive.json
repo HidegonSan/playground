@@ -421,7 +421,7 @@
 			"name": "Council",
 			"talents": [
 				{
-					"active": true,
+					"active": false,
 					"name": "Tsukumo Sana",
 					"name_jp": "九十九佐命",
 					"name_kana": "つくも さな",
