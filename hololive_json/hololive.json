@@ -1,7 +1,7 @@
 {
 	"japan": {
 		"gen0": {
-			"name": "",
+			"name": "0期生",
 			"talents": [
 				{
 					"active": true,
@@ -38,7 +38,7 @@
 			]
 		},
 		"gen1": {
-			"name": "",
+			"name": "1期生",
 			"talents": [
 				{
 					"active": true,
@@ -91,7 +91,7 @@
 			]
 		},
 		"gen2": {
-			"name": "",
+			"name": "2期生",
 			"talents": [
 				{
 					"active": true,
@@ -405,7 +405,7 @@
 			]
 		},
 		"gen2": {
-			"name": "Project HOPE",
+			"name": "Project: HOPE",
 			"talents": [
 				{
 					"active": true,
@@ -510,7 +510,7 @@
 	},
 	"indonesia": {
 		"gen1": {
-			"name": "",
+			"name": "1期生",
 			"talents": [
 				{
 					"active": true,
@@ -539,7 +539,7 @@
 			]
 		},
 		"gen2": {
-			"name": "",
+			"name": "2期生",
 			"talents": [
 				{
 					"active": true,
@@ -568,7 +568,7 @@
 			]
 		},
 		"gen3": {
-			"name": "",
+			"name": "3期生",
 			"talents": [
 				{
 					"active": true,
@@ -597,6 +597,22 @@
 			]
 		}
 	},
+	"staff": [
+		{
+			"active": true,
+			"name": "Friend-A",
+			"name_jp": "友人A",
+			"name_kana": "えーちゃん",
+			"twitter": "https://twitter.com/achan_UGA"
+		},
+		{
+			"active": true,
+			"name": "Harusaki Nodoka",
+			"name_jp": "春先のどか",
+			"name_kana": "はるさき のどか",
+			"twitter": "https://twitter.com/harusakinodoka"
+		},
+	],
 	"official": [
 		{
 			"active": true,
