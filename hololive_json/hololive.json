@@ -112,8 +112,8 @@
 				{
 					"active": true,
 					"name": "百鬼あやめ",
-					"name_jp": "なりき あやめ",
-					"name_kana": "なりき あやめ",
+					"name_jp": "なきり あやめ",
+					"name_kana": "なきり あやめ",
 					"youtube": "https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg",
 					"twitter": "https://twitter.com/nakiriayame"
 				},
@@ -461,6 +461,51 @@
 					"twitter": "https://twitter.com/hakosbaelz"
 				}
 			]
+		},
+		"gen4": {
+			"name": "Advent",
+			"talents": [
+				{
+					"active": true,
+					"name": "Shiori Novella",
+					"name_jp": "シオリ・ノヴェラ",
+					"name_kana": "しろり・のゔぇら",
+					"youtube": "https://www.youtube.com/channel/UCgnfPPb9JI3e9A4cXHnWbyg",
+					"twitter": "https://twitter.com/shiorinovella"
+				},
+				{
+					"active": true,
+					"name": "Koseki Bijou",
+					"name_jp": "古石ビジュー",
+					"name_kana": "こせき びじゅー",
+					"youtube": "https://www.youtube.com/channel/UC9p_lqQ0FEDz327Vgf5JwqA",
+					"twitter": "https://twitter.com/kosekibijou"
+				},
+				{
+					"active": true,
+					"name": "Nerissa Ravencroft",
+					"name_jp": "ネリッサ・レイヴンクロフト",
+					"name_kana": "ねりっさ・れいゔんくろふと",
+					"youtube": "https://www.youtube.com/channel/UC_sFNM0z0MWm9A6WlKPuMMg",
+					"twitter": "https://twitter.com/nerissa_en"
+				},
+				{
+					"active": true,
+					"name": "Fuwawa Abyssgard",
+					"name_jp": "フワワ・アビスガード",
+					"name_kana": "ふわわ・あびすがーど",
+					"youtube": "https://www.youtube.com/channel/UCt9H_RpQzhxzlyBxFqrdHqA",
+					"twitter": "https://twitter.com/fuwamoco_en"
+				},
+				{
+					"active": true,
+					"name": "Mococo Abyssgard",
+					"name_jp": "モココ・アビスガード",
+					"name_kana": "もここ・あびすがーど",
+					"youtube": "https://www.youtube.com/channel/UCt9H_RpQzhxzlyBxFqrdHqA",
+					"twitter": "https://twitter.com/fuwamoco_en"
+				},
+			]
 		}
 	},
 	"indonesia": {
@@ -479,7 +524,7 @@
 					"active": true,
 					"name": "Moona Hoshinova",
 					"name_jp": "ムーナ・ホシノヴァ",
-					"name_kana": "むーな・ほしのう゛ぁ",
+					"name_kana": "むーな・ほしのゔぁ",
 					"youtube": "https://www.youtube.com/channel/UCP0BspO_AMEe3aQqqpo89Dg",
 					"twitter": "https://twitter.com/moonahoshinova"
 				},
@@ -516,7 +561,7 @@
 					"active": true,
 					"name": "Pavolia Reine",
 					"name_jp": "パヴォリア・レイネ",
-					"name_kana": "ぱう゛ぉりあ・れいね",
+					"name_kana": "ぱゔぉりあ・れいね",
 					"youtube": "https://www.youtube.com/channel/UChgTyjG-pdNvxxhdsXfHQ5Q",
 					"twitter": "https://twitter.com/pavoliareine"
 				}
@@ -537,7 +582,7 @@
 					"active": true,
 					"name": "Kaela Kovalskia",
 					"name_jp": "カエラ・コヴァルスキア",
-					"name_kana": "かえら・ごう゛ぁるすきあ",
+					"name_kana": "かえら・ごゔぁるすきあ",
 					"youtube": "https://www.youtube.com/channel/UCZLZ8Jjx_RN2CXloOmgTHVg",
 					"twitter": "https://twitter.com/kaelakovalskia"
 				},
